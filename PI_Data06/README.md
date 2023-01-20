@@ -25,15 +25,15 @@ Las respuestas de las consultas al **API** devuelven un string con el resultado:
 
 ## Querys Disponibles
 
-`/get_word_count/`: Listado de todos los años de los que se tiene registro, con la cantidad de carreras por año.
+`/get_word_count/`: Cantidad de veces que aparece una keyword en el título de peliculas/series, por plataforma.
 
-`/get_score_count/`: Listado ordenado con mayor cantidad de carreras por año, en un top según el número indicado.
+`/get_score_count/`: Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año.
 
-`/get_second_score/`: Pilotos y la cantidad de veces que consiguieron un primer puesto. Ordenado por cantidad de forma descendente.
+`/get_second_score/`: La segunda película con mayor score para una plataforma determinada, según el orden alfabético de los títulos.
 
-`/get_longest/`: Top de pilotos y la cantidad de veces que consiguieron un primer puesto.
+`/get_longest/`: Película que más duró según año, plataforma y tipo de duración.
 
-`/get_rating_count/`: Nombre de circuitos con cantidad de carreras que se corrieron en él. Ordenado de más carreras a menos.
+`/get_rating_count/`: Cantidad de series y películas por rating.
 
 ## Ejemplos
 
