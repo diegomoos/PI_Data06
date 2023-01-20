@@ -13,6 +13,8 @@ uvicorn main:app
 
 De esta forma ya se podrá realizar las querys de forma local.
 
+[API en Deta](https://2zbw58.deta.dev/docs#/)
+
 ## Respuestas
 
 Las respuestas de las consultas al **API** devuelven un string con el resultado:
